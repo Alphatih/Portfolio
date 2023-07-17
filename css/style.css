@@ -475,7 +475,7 @@ footer .content-footer .end {
     }
 }
 
-@media screen and (min-width: 576px) and (max-width:767px) {
+@media screen and (min-width: 576px) and (max-width:650px) {
     :root {
         --padding: 1.5rem;
     }
@@ -487,14 +487,8 @@ footer .content-footer .end {
 
 
     .home .container-images {
-        display;
-
+        display: none;
     }
-
-    .home .container-images img {
-        width: 130px;
-    }
-
 
     .content {
         padding-top: 82px;
@@ -595,6 +589,122 @@ footer .content-footer .end {
         align-items: center;
         justify-content: center;
 
+    }
+
+    .skill {
+        width: 80px;
+        height: 80px;
+    }
+
+    footer .content-footer p {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 660px) and (max-width:760px) {
+    :root {
+        --padding: 1.5rem;
+    }
+
+
+    html {
+        font-size: 13px;
+    }
+
+
+    .home .container-images {
+        display: flex;
+        width: 40%;
+        height: 70%;
+    }
+
+    .home .container-images img {
+        width: 100%;
+    }
+
+    nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 82px;
+        padding-top: 0px;
+        background-color: var(--bgColor);
+        border-bottom: 1px solid var(--bgColor2);
+        z-index: 100;
+
+    }
+
+
+    nav>a {
+        display: none;
+    }
+
+    nav ul {
+        display: none;
+        position: fixed;
+        top: 0;
+        right: 0px;
+        width: 50vw;
+        height: 100vh;
+        background: var(--bgColor2);
+    }
+
+    nav ul.is-active {
+        display: block;
+    }
+
+    nav ul li {
+        display: block;
+        text-align: center;
+        margin: 50px;
+
+    }
+
+    .container-texts {
+        bottom: 0em;
+    }
+
+    .social {
+        margin-top: 80px;
+    }
+
+    #menu {
+        display: block;
+    }
+
+    .about .container-images img {
+        width: 60%;
+    }
+
+    .about {
+        width: 100%;
+
+    }
+
+    .box {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    .skills .container-images img {
+        width: 60%;
+    }
+
+    .skills .container-skills {
+        width: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+
+    .skills .container-skills .content-skills {
+        margin-top: 2rem;
+        align-items: center;
+        justify-content: center;
     }
 
     .skill {
@@ -737,9 +847,13 @@ footer .content-footer .end {
 
     .home .container-images {
         height: auto;
-        width: 100%;
+        display: flex;
+        width: 50%;
     }
 
+    .home .container-images img {
+        width: 60%;
+    }
 
     nav {
         position: fixed;
