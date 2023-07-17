@@ -450,15 +450,16 @@ footer .content-footer .end {
     }
 
     .skills .container-skills {
-        width: 200%;
+        width: 300rem;
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: space-between;
         flex-direction: column;
 
     }
 
     .skills .container-skills .content-skills {
+        width: 100%;
         margin-top: 2rem;
         align-items: center;
         justify-content: center;
@@ -474,7 +475,7 @@ footer .content-footer .end {
     }
 }
 
-@media screen and (min-width: 575px) and (max-width:767px) {
+@media screen and (min-width: 576px) and (max-width:767px) {
     :root {
         --padding: 1.5rem;
     }
@@ -486,8 +487,14 @@ footer .content-footer .end {
 
 
     .home .container-images {
-        display: none;
+        display;
+
     }
+
+    .home .container-images img {
+        width: 130px;
+    }
+
 
     .content {
         padding-top: 82px;
@@ -556,7 +563,7 @@ footer .content-footer .end {
     } */
 
     .about .container-images img {
-        display: none;
+        display;
     }
 
     .about {
@@ -600,7 +607,7 @@ footer .content-footer .end {
     }
 }
 
-@media screen and (max-width: 768px) and (max-width:991px) {
+@media screen and (min-width: 768px) and (max-width:991px) {
     :root {
         --padding: 1.5rem;
     }
@@ -717,7 +724,7 @@ footer .content-footer .end {
     }
 }
 
-@media screen and (max-width: 992px) and (max-width:1279px) {
+@media screen and (min-width: 992px) and (max-width:1279px) {
     :root {
         --padding: 1.5rem;
     }
