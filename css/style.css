@@ -613,7 +613,7 @@ footer .content-footer .end {
 
 
     .home .container-images {
-        display: flex;
+        display: block;
         width: 40%;
         height: 70%;
     }
