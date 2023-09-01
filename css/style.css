@@ -213,6 +213,10 @@ nav ul li a:hover {
     width: 90%;
 }
 
+.about .container-texts p {
+    margin: 10px 0px;
+}
+
 .services {
     background-color: var(--bgColor);
     padding: var(--padding);
@@ -242,6 +246,8 @@ nav ul li a:hover {
     color: var(--primaryColor);
     margin: 2rem;
 }
+
+
 
 /*---------------------------------------------------------------------------------
 --------------------------- SKILLS SECTION ------------------------------------------
