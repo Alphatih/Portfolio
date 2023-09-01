@@ -615,10 +615,11 @@ footer span {
         height: 100px;
     } */
 
-    .about .container-images img {
-        display;
-    }
+    /* .about .container-images img {
+         display;
+}
 
+*/
     .about {
         width: 100%;
 
@@ -653,6 +654,10 @@ footer span {
     .skill {
         width: 80px;
         height: 80px;
+    }
+
+    .jncia img {
+        width: 100%;
     }
 
     footer .content-footer p {
